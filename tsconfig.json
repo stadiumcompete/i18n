@@ -6,7 +6,8 @@
     "module": "es6",
     "target": "es5",
     "moduleResolution": "node",
-    "outDir": "lib"
+    "outDir": "lib",
+    "declaration": true
   },
   "include": [
     "./src/index.ts",

@@ -1,12 +1,12 @@
-import { translations } from './translations'
-import { LANGUAGE } from './languages'
+import { LANGUAGE } from "./languages";
+import { T } from "./translations";
+import { TRANSLATION_MAP } from "./types";
 
-export { LANGUAGE }
+export { LANGUAGE, TRANSLATION_MAP, T };
 
-// The `id` is the English version. If you don't find a translated string,
+// If you don't find a translated string,
 // at least just return the English version.
-export const getTranslation = (id: string, lang: LANGUAGE) => {
-  const tMap = translations[id]
-  if (!tMap) return id
-  return tMap[lang] || id
-}
+export const getTranslation = (tMap: TRANSLATION_MAP, lang: LANGUAGE) => {
+  if (!tMap) return "";
+  return tMap[lang] || tMap[LANGUAGE.EN] || "";
+};

@@ -1,8 +1,9 @@
 {
   "name": "@stadiumcompete/i18n",
-  "version": "0.0.0",
+  "version": "0.0.3",
   "description": "Translation copy for STADIUM - the competition platform for racket sports.",
   "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
     "build": "tsc",
     "build:watch": "tsc && tsc --watch"
