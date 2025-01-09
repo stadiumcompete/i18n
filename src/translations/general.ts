@@ -13,7 +13,7 @@ export const T_GENERAL = {
   },
   GENERAL_ANY_SPORT: {
     [LANGUAGE.EN]: "Any Sport",
-    [LANGUAGE.FR]: "Tout sport",
+    [LANGUAGE.FR]: "Tous les sports",
   },
   GENERAL_ANYWHERE: {
     [LANGUAGE.EN]: "Anywhere",
