@@ -89,11 +89,11 @@ export const T_GENERAL = {
   },
   GENERAL_FILTER_BY: {
     [LANGUAGE.EN]: "Filter By",
-    [LANGUAGE.FR]: "Filtrer Par",
+    [LANGUAGE.FR]: "Filtrer par",
   },
   GENERAL_SORT_BY: {
     [LANGUAGE.EN]: "Sort By",
-    [LANGUAGE.FR]: "Trier Par",
+    [LANGUAGE.FR]: "Trier par",
   },
   GENERAL_SORT_DIRECTION: {
     [LANGUAGE.EN]: "Direction",
