@@ -13,12 +13,13 @@ export const T_TOURNAMENT = {
   },
   TOURNAMENT_REPORT_SCORES_AS: {
     [LANGUAGE.EN]: "Report scores as",
-    [LANGUAGE.ES]: "Reportar los resultados como"
+    [LANGUAGE.ES]: "Reportar los resultados como",
     [LANGUAGE.FR]: "Rapporter les scores en tant que",
   },
   TOURNAMENT_REPORTING_SCORES_AS: {
     [LANGUAGE.EN]: "Reporting scores as",
-    [LANGUAGE.ES]: "Reportando los resultados como"
+    [LANGUAGE.ES]: "Reportando los resultados como",
+    [LANGUAGE.FR]: "Rapport des scores en tant que",
   },
   TOURNAMENT_ENTER_PIN_TO_REPORT: {
     [LANGUAGE.EN]: "Enter PIN code to report scores",
@@ -48,22 +49,27 @@ export const T_TOURNAMENT = {
   TOURNAMENT_DRAW_SE_FULL_BRACKET: {
     [LANGUAGE.EN]: "Full Bracket",
     [LANGUAGE.ES]: "Grupo entero de eliminatorias",
+    [LANGUAGE.FR]: "Tableau complet",
   },
   TOURNAMENT_DRAW_SE_ROUND_OF: {
     [LANGUAGE.EN]: "Round of",
     [LANGUAGE.ES]: "Ronda de",
+    [LANGUAGE.FR]: "Ronde de",
   },
   TOURNAMENT_DRAW_SE_QUARTERFINALS: {
     [LANGUAGE.EN]: "Quarterfinals",
     [LANGUAGE.ES]: "Cuartos de final",
+    [LANGUAGE.FR]: "Quarts de finale",
   },
   TOURNAMENT_DRAW_SE_SEMIFINALS: {
     [LANGUAGE.EN]: "Semifinals",
     [LANGUAGE.ES]: "Semifinales",
+    [LANGUAGE.FR]: "Demi-finales",
   },
   TOURNAMENT_DRAW_SE_FINALS: {
     [LANGUAGE.EN]: "Finals",
     [LANGUAGE.ES]: "Final",
+    [LANGUAGE.FR]: "Finales",
   },
   TOURNAMENT_DRAW_IS_NOT_READY: {
     [LANGUAGE.EN]: "The draw is not ready yet",
@@ -72,12 +78,13 @@ export const T_TOURNAMENT = {
   },
   TOURNAMENT_MATCH_FORMAT_FIRST_TO: {
     [LANGUAGE.EN]: "First to",
-    [LANGUAGE.ES]: "El primero a"
+    [LANGUAGE.ES]: "El primero a",
     [LANGUAGE.FR]: "Premier à",
   },
   TOURNAMENT_MATCH_FORMAT_WIN_BY: {
     [LANGUAGE.EN]: "Win by",
-    [LANGUAGE.ES]: "Mínima diferencia de puntos para ganar"
+    [LANGUAGE.ES]: "Mínima diferencia de puntos para ganar",
+    [LANGUAGE.FR]: "Gagner par",
   },
   TOURNAMENT_MATCH_FORMAT_BEST_OF: {
     [LANGUAGE.EN]: "Best of",
@@ -93,7 +100,7 @@ export const T_TOURNAMENT = {
     [LANGUAGE.EN]:
       "Ask your opponent to review these scores carefully before hitting Submit. They only need to be submitted once, from one device.",
     [LANGUAGE.ES]:
-      "Pídele a tu contrincante que revise los resultados antes de entregarlos. Solo es necesario entregarlos una vez, desde un dispositivo."
+      "Pídele a tu contrincante que revise los resultados antes de entregarlos. Solo es necesario entregarlos una vez, desde un dispositivo.",
     [LANGUAGE.FR]:
       "Demandez à votre adversaire de vérifier ces scores attentivement avant de les soumettre. Ils ne doivent être soumis qu'une seule fois, depuis un seul appareil.",
   },
@@ -101,13 +108,13 @@ export const T_TOURNAMENT = {
     [LANGUAGE.EN]:
       "If you can't find your opponent(s), submit without verification. The match will be flagged to the admin for further review.",
     [LANGUAGE.ES]:
-      "Si no puedes encontarle a tu contrincante, entrega los resultados sin verificación. La administración del torneo tendrá que revisarlos antes de continuar."
+      "Si no puedes encontarle a tu contrincante, entrega los resultados sin verificación. La administración del torneo tendrá que revisarlos antes de continuar.",
     [LANGUAGE.FR]:
       "Si vous ne trouvez pas votre ou vos adversaires, soumettez sans vérification. Le match sera signalé à l'administrateur pour examen.",
   },
   TOURNAMENT_MATCH_SUBMISSION_HINT_DISPUTE: {
     [LANGUAGE.EN]: "In case of a dispute, speak to a tournament admin.",
-    [LANGUAGE.ES]: "En caso de que no se pongan de acuerdo, hablen con la dirección del torneo."
+    [LANGUAGE.ES]: "En caso de que no se pongan de acuerdo, hablen con la dirección del torneo.",
     [LANGUAGE.FR]: "En cas de litige, parlez à un administrateur du tournoi.",
   },
   TOURNAMENT_MATCH_SUBMISSION_HINT_BIRTHDATE_ONE_PLAYER: {
