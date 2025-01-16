@@ -3,18 +3,23 @@ import { LANGUAGE } from "../languages";
 export const T_GENERAL = {
   GENERAL_LOG_IN: {
     [LANGUAGE.EN]: "Log In",
+    [LANGUAGE.FR]: "Connexion",
   },
   GENERAL_SIGN_UP: {
     [LANGUAGE.EN]: "Sign Up",
+    [LANGUAGE.FR]: "Inscription",
   },
   GENERAL_EMAIL: {
     [LANGUAGE.EN]: "Email",
+    [LANGUAGE.FR]: "Courriel",
   },
   GENERAL_PASSWORD: {
     [LANGUAGE.EN]: "Password",
+    [LANGUAGE.FR]: "Mot de Passe",
   },
   GENERAL_SPORT: {
     [LANGUAGE.EN]: "Sport",
+    [LANGUAGE.FR]: "Sport",
   },
   GENERAL_TOURNAMENT: {
     [LANGUAGE.EN]: "Tournament",
@@ -48,18 +53,23 @@ export const T_GENERAL = {
   },
   GENERAL_BADMINTON: {
     [LANGUAGE.EN]: "Badminton",
+    [LANGUAGE.FR]: "Badminton",
   },
   GENERAL_PADEL: {
     [LANGUAGE.EN]: "Padel",
+    [LANGUAGE.FR]: "Padel",
   },
   GENERAL_PICKLEBALL: {
     [LANGUAGE.EN]: "Pickleball",
+    [LANGUAGE.FR]: "Pickleball",
   },
   GENERAL_SQUASH: {
     [LANGUAGE.EN]: "Squash",
+    [LANGUAGE.FR]: "Squash",
   },
   GENERAL_RACKETLON: {
     [LANGUAGE.EN]: "Racketlon",
+    [LANGUAGE.FR]: "Racketlon",
   },
   GENERAL_EVENT: {
     [LANGUAGE.EN]: "Event",
@@ -168,6 +178,7 @@ export const T_GENERAL = {
   },
   GENERAL_SEARCH_BY_NAME: {
     [LANGUAGE.EN]: "Search by Name",
+    [LANGUAGE.FR]: "Recherche par nom",
   },
   GENERAL_FILTER_BY: {
     [LANGUAGE.EN]: "Filter By",
@@ -236,6 +247,7 @@ export const T_GENERAL = {
   },
   GENERAL_NO_TABLE: {
     [LANGUAGE.EN]: "No Table",
+    [LANGUAGE.FR]: "Pas de table",
   },
   GENERAL_TABLE: {
     [LANGUAGE.EN]: "Table",
@@ -249,6 +261,7 @@ export const T_GENERAL = {
   },
   GENERAL_NO_COURT: {
     [LANGUAGE.EN]: "No Court",
+    [LANGUAGE.FR]: "Pas de terrain",
   },
   GENERAL_COURT: {
     [LANGUAGE.EN]: "Court",
@@ -262,5 +275,6 @@ export const T_GENERAL = {
   },
   GENERAL_NO_AFFILIATION: {
     [LANGUAGE.EN]: "No Affiliation",
+    [LANGUAGE.FR]: "Pas d'affiliation",
   },
 };

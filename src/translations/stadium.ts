@@ -26,21 +26,28 @@ export const T_STADIUM = {
   },
   STADIUM_WHAT_IS_IT: {
     [LANGUAGE.EN]: "What is STADIUM?",
+    [LANGUAGE.FR]: "Qu'est-ce que STADIUM ?",
   },
   STADIUM_ONE_LINER: {
     [LANGUAGE.EN]: "the competition platform for racket sports",
+    [LANGUAGE.FR]: "la plateforme de compétition pour les sports de raquette",
   },
   STADIUM_FOR_ORGANIZER_FEATURES: {
     [LANGUAGE.EN]: "For tournaments, leagues, membership systems, and more.",
+    [LANGUAGE.FR]: "Pour les tournois, ligues, systèmes d'adhésions et plus encore.",
   },
   STADIUM_MANAGE_ORGANIZER_NEEDS: {
     [LANGUAGE.EN]:
       "Manage all your competition needs in one simple, modern, and intuitive platform.",
+    [LANGUAGE.FR]: "Gérez tous vos besoins en compétition sur une plateforme simple, moderne et intuitive.",
   },
   STADIUM_FREE_TO_USE_NO_CC: {
     [LANGUAGE.EN]: "100% free to use - no credit card required.",
+    [LANGUAGE.FR]: "100% gratuit - aucune carte de crédit requise.",
   },
   STADIUM_LEARN_MORE: {
     [LANGUAGE.EN]: "Learn More",
+    [LANGUAGE.FR]: "En savoir plus",
   },
+
 };
