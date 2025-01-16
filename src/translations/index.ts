@@ -2,6 +2,7 @@ import { LANGUAGE } from "../languages";
 import { T_GENERAL } from "./general";
 import { T_STADIUM } from "./stadium";
 import { T_TOURNAMENT } from "./tournament";
+import { T_ACCOUNT } from "./account";
 
 export const T = {
   // General Terms
@@ -9,6 +10,9 @@ export const T = {
 
   // STADIUM-specific
   ...T_STADIUM,
+
+  // View: Log In, Sign Up, Account
+  ...T_ACCOUNT,
 
   // View: Tournament or League
   ...T_TOURNAMENT,

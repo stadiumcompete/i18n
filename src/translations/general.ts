@@ -1,6 +1,21 @@
 import { LANGUAGE } from "../languages";
 
 export const T_GENERAL = {
+  GENERAL_LOG_IN: {
+    [LANGUAGE.EN]: "Log In",
+  },
+  GENERAL_SIGN_UP: {
+    [LANGUAGE.EN]: "Sign Up",
+  },
+  GENERAL_EMAIL: {
+    [LANGUAGE.EN]: "Email",
+  },
+  GENERAL_PASSWORD: {
+    [LANGUAGE.EN]: "Password",
+  },
+  GENERAL_SPORT: {
+    [LANGUAGE.EN]: "Sport",
+  },
   GENERAL_TOURNAMENT: {
     [LANGUAGE.EN]: "Tournament",
     [LANGUAGE.ES]: "Torneo",
@@ -25,6 +40,26 @@ export const T_GENERAL = {
     [LANGUAGE.EN]: "Table Tennis",
     [LANGUAGE.ES]: "Tenis de mesa",
     [LANGUAGE.FR]: "Tennis de table",
+  },
+  GENERAL_TENNIS: {
+    [LANGUAGE.EN]: "Tennis",
+    [LANGUAGE.ES]: "Tenis",
+    [LANGUAGE.FR]: "Tennis",
+  },
+  GENERAL_BADMINTON: {
+    [LANGUAGE.EN]: "Badminton",
+  },
+  GENERAL_PADEL: {
+    [LANGUAGE.EN]: "Padel",
+  },
+  GENERAL_PICKLEBALL: {
+    [LANGUAGE.EN]: "Pickleball",
+  },
+  GENERAL_SQUASH: {
+    [LANGUAGE.EN]: "Squash",
+  },
+  GENERAL_RACKETLON: {
+    [LANGUAGE.EN]: "Racketlon",
   },
   GENERAL_EVENT: {
     [LANGUAGE.EN]: "Event",
@@ -131,6 +166,9 @@ export const T_GENERAL = {
     [LANGUAGE.ES]: "Busca",
     [LANGUAGE.FR]: "Recherche",
   },
+  GENERAL_SEARCH_BY_NAME: {
+    [LANGUAGE.EN]: "Search by Name",
+  },
   GENERAL_FILTER_BY: {
     [LANGUAGE.EN]: "Filter By",
     [LANGUAGE.ES]: "Filtrar por",
@@ -196,6 +234,9 @@ export const T_GENERAL = {
     [LANGUAGE.ES]: "Cargando",
     [LANGUAGE.FR]: "Chargement",
   },
+  GENERAL_NO_TABLE: {
+    [LANGUAGE.EN]: "No Table",
+  },
   GENERAL_TABLE: {
     [LANGUAGE.EN]: "Table",
     [LANGUAGE.ES]: "Mesa",
@@ -206,6 +247,9 @@ export const T_GENERAL = {
     [LANGUAGE.ES]: "Mesas",
     [LANGUAGE.FR]: "Tables",
   },
+  GENERAL_NO_COURT: {
+    [LANGUAGE.EN]: "No Court",
+  },
   GENERAL_COURT: {
     [LANGUAGE.EN]: "Court",
     [LANGUAGE.ES]: "Cancha",
@@ -215,5 +259,8 @@ export const T_GENERAL = {
     [LANGUAGE.EN]: "Courts",
     [LANGUAGE.ES]: "Canchas",
     [LANGUAGE.FR]: "Courts",
+  },
+  GENERAL_NO_AFFILIATION: {
+    [LANGUAGE.EN]: "No Affiliation",
   },
 };
